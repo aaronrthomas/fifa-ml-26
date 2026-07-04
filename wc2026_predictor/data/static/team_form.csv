@@ -1,0 +1,27 @@
+# Recent form for last 10 matches (most recent first)
+# Includes WC 2026 group stage results + recent friendlies/qualifiers
+# W=Win, D=Draw, L=Loss
+# goals_for / goals_against are cumulative across these 10 games
+team,m1,m2,m3,m4,m5,m6,m7,m8,m9,m10,goals_for_10,goals_against_10,form_score
+France,W,W,W,W,D,W,W,W,D,W,22,7,0.88
+Argentina,W,W,D,W,W,W,W,D,W,W,24,8,0.85
+Spain,W,W,W,D,W,W,W,W,W,D,28,6,0.88
+Brazil,W,W,W,W,W,D,W,W,L,W,25,9,0.80
+England,W,D,W,W,W,W,W,D,W,W,21,6,0.83
+Portugal,W,W,D,W,W,W,D,W,W,W,26,8,0.85
+Belgium,W,D,W,W,W,D,W,W,L,W,18,9,0.73
+Netherlands,W,W,W,D,W,W,D,W,D,W,20,8,0.78
+Germany,W,W,D,W,W,L,W,W,D,W,19,10,0.72
+Colombia,W,W,W,D,W,W,D,W,W,W,22,7,0.84
+Morocco,D,W,W,W,D,W,W,W,D,W,14,5,0.78
+Croatia,W,D,W,D,W,D,W,W,D,W,15,8,0.70
+Switzerland,W,W,D,W,W,W,D,W,W,D,17,7,0.79
+USA,W,D,W,W,W,W,D,W,L,W,16,9,0.73
+Mexico,W,D,D,W,W,W,D,W,W,D,15,8,0.72
+Canada,W,W,D,W,D,W,W,D,W,W,18,10,0.76
+Norway,W,W,W,D,W,D,W,W,W,D,23,10,0.78
+Egypt,W,D,W,D,W,W,D,W,L,W,15,8,0.67
+Paraguay,D,W,W,D,W,L,W,D,W,W,12,10,0.64
+Senegal,W,D,W,W,D,W,W,D,W,W,17,7,0.78
+Uruguay,W,W,D,W,D,W,D,W,W,D,16,7,0.74
+Japan,W,W,D,W,W,D,W,D,W,W,19,8,0.78

@@ -1,0 +1,13 @@
+{
+  "feature_cols": [
+    "elo_diff",
+    "form_diff",
+    "squad_val_diff",
+    "xg_diff",
+    "gd_diff",
+    "h2h_adv",
+    "host",
+    "tournament_diff"
+  ],
+  "model_name": "Random Forest"
+}

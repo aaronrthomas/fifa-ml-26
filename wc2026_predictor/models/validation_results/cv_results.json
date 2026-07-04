@@ -1,0 +1,56 @@
+{
+  "Logistic Regression": {
+    "cv_accuracy": 0.8153846153846154,
+    "cv_accuracy_std": 0.05102499677469847,
+    "cv_log_loss": 0.9455912429406157,
+    "cv_auc": 0.8342230576441103,
+    "train_accuracy": 0.873076923076923
+  },
+  "Random Forest": {
+    "cv_accuracy": 0.8076923076923077,
+    "cv_accuracy_std": 0.04865042554105199,
+    "cv_log_loss": 0.7160841625402758,
+    "cv_auc": 0.8029636591478695,
+    "train_accuracy": 0.8961538461538462
+  },
+  "Gradient Boosting": {
+    "cv_accuracy": 0.8153846153846154,
+    "cv_accuracy_std": 0.04485347611419459,
+    "cv_log_loss": 0.9778530302827996,
+    "cv_auc": 0.7939786967418546,
+    "train_accuracy": 0.9653846153846153
+  },
+  "XGBoost": {
+    "cv_accuracy": 0.8307692307692308,
+    "cv_accuracy_std": 0.03076923076923075,
+    "cv_log_loss": 1.1934965059002713,
+    "cv_auc": 0.8129448621553885,
+    "train_accuracy": 0.9211538461538462
+  },
+  "LightGBM": {
+    "cv_accuracy": 0.8384615384615385,
+    "cv_accuracy_std": 0.05652668637191949,
+    "cv_log_loss": 0.9641119699958048,
+    "cv_auc": 0.7972556390977444,
+    "train_accuracy": 0.8903846153846153
+  },
+  "CatBoost": {
+    "cv_accuracy": 0.8076923076923077,
+    "cv_accuracy_std": 0.06435846357954426,
+    "cv_log_loss": 1.213861326436732,
+    "cv_auc": 0.8165789473684211,
+    "train_accuracy": 0.9576923076923076
+  },
+  "best_model": "Random Forest",
+  "n_training_samples": 130,
+  "feature_cols": [
+    "elo_diff",
+    "form_diff",
+    "squad_val_diff",
+    "xg_diff",
+    "gd_diff",
+    "h2h_adv",
+    "host",
+    "tournament_diff"
+  ]
+}

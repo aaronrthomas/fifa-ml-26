@@ -1,0 +1,38 @@
+# Team statistical profile for WC 2026 group stage + recent qualifiers
+# attack_strength: goals scored / league_avg_goals (normalized to 1.0 = average)
+# defense_strength: goals conceded / league_avg_goals (lower = better defense; 1.0 = average)
+# xg_for: average xG per game (attacking quality)
+# xg_against: average xG conceded per game (defensive quality)
+# avg_possession: average ball possession %
+# avg_pass_accuracy: % of passes completed
+# avg_shots_on_target: per game
+# wc_appearances: number of World Cup appearances
+# best_wc_result: best historical WC finish
+# ko_win_rate: % of knockout round games won (all-time WC)
+# penalty_ko_rate: % of penalty shootouts won in WC
+# avg_player_rating: aggregated from Sofascore/WhoScored
+# injury_suspension_factor: 1.0 = full squad, <1.0 = key player absent
+# rest_days_before_qf: days rest before their QF match (from R16 game)
+team,attack_strength,defense_strength,xg_for,xg_against,avg_possession,avg_pass_accuracy,avg_shots_on_target,wc_appearances,best_wc_result,ko_win_rate,penalty_ko_rate,avg_player_rating,injury_suspension_factor,rest_days_before_qf
+France,1.52,0.61,2.31,0.98,58.2,87.4,5.8,16,Champion,0.72,0.60,7.82,0.97,5
+Argentina,1.48,0.68,2.18,1.12,54.8,85.9,5.2,18,Champion,0.74,0.80,7.79,0.95,5
+Spain,1.61,0.53,2.44,0.89,66.4,91.2,5.1,16,Champion,0.69,0.57,7.85,0.98,4
+Brazil,1.44,0.72,2.08,1.21,57.9,86.3,5.4,22,Champion,0.68,0.60,7.74,0.96,5
+England,1.38,0.64,2.04,1.08,56.1,84.7,5.0,16,Runner-Up,0.61,0.40,7.71,0.99,5
+Portugal,1.41,0.71,2.11,1.14,54.3,85.1,5.3,8,3rd Place,0.65,0.67,7.68,0.95,4
+Belgium,1.29,0.78,1.87,1.29,53.4,83.8,4.6,14,3rd Place,0.60,0.50,7.55,0.92,4
+Netherlands,1.33,0.75,1.91,1.22,55.7,84.9,4.9,11,Runner-Up,0.62,0.38,7.58,0.94,5
+Germany,1.31,0.77,1.89,1.24,56.8,85.3,4.7,20,Champion,0.64,0.75,7.52,0.93,4
+Colombia,1.27,0.82,1.78,1.31,52.1,82.4,4.4,7,QF,0.55,0.50,7.48,0.97,5
+Morocco,1.08,0.69,1.41,1.11,47.2,79.8,3.9,9,SF,0.67,0.50,7.32,0.99,5
+Croatia,1.18,0.81,1.62,1.28,51.4,82.1,4.2,8,Runner-Up,0.68,0.75,7.41,0.94,5
+Switzerland,1.14,0.84,1.56,1.32,50.8,81.9,4.0,12,QF,0.57,0.50,7.35,0.98,5
+USA,1.21,0.88,1.71,1.38,49.3,80.2,4.3,11,QF,0.54,0.50,7.31,0.99,4
+Mexico,1.12,0.91,1.52,1.42,48.7,79.1,3.8,17,QF,0.48,0.33,7.28,0.96,5
+Canada,1.09,0.94,1.44,1.48,46.9,78.4,3.7,2,R16,0.45,0.50,7.21,0.97,4
+Norway,1.35,0.86,2.01,1.34,48.1,79.4,5.8,4,QF,0.50,0.50,7.44,0.95,5
+Egypt,1.06,0.87,1.38,1.39,46.4,77.9,3.5,3,R16,0.43,0.50,7.19,0.97,4
+Paraguay,1.04,0.93,1.32,1.44,45.8,77.2,3.4,9,SF,0.46,0.50,7.15,0.98,5
+Senegal,1.13,0.85,1.55,1.33,48.9,78.9,4.1,5,QF,0.52,0.50,7.30,0.98,5
+Uruguay,1.19,0.83,1.63,1.30,50.2,80.8,4.2,14,Champion,0.57,0.50,7.38,0.94,5
+Japan,1.16,0.79,1.59,1.27,52.3,83.1,4.3,8,R16,0.55,0.50,7.36,0.99,5

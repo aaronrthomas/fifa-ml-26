@@ -1,0 +1,183 @@
+# Player data for goalscorer model
+# jersey: squad number for competition submission
+# position: GK/DEF/MID/FWD
+# scoring_rate: goals per 90 minutes in last 12 months
+# pk_taker: 1 if designated penalty taker, 0 otherwise
+# fk_specialist: 1 if free-kick specialist, 0 otherwise
+# avg_minutes_per_game: typical playing time (knockout games)
+# availability: 1.0 = fully fit, < 1.0 = doubt/injured
+# sofascore_rating: average tournament rating
+# notes: key player description
+team,player_name,jersey,position,scoring_rate,pk_taker,fk_specialist,avg_minutes_per_game,availability,sofascore_rating,notes
+France,Mike Maignan,1,GK,0.00,0,0,90,1.0,7.2,First-choice keeper
+France,Theo Hernandez,22,DEF,0.05,0,0,88,1.0,7.1,Attack-minded LB
+France,William Saliba,12,DEF,0.04,0,0,90,1.0,7.3,Ball-playing CB
+France,Ibrahima Konate,4,DEF,0.03,0,0,90,1.0,7.0,Physical CB
+France,Benjamin Pavard,5,DEF,0.04,0,0,87,1.0,7.0,Versatile CB
+France,Aurelien Tchouameni,8,MID,0.08,0,0,88,0.95,7.2,Defensive MF
+France,Adrien Rabiot,14,MID,0.10,0,0,82,1.0,7.1,Box-to-box MF
+France,Antoine Griezmann,7,MID,0.28,0,1,85,0.98,7.6,Creative forward/MF
+France,Ousmane Dembele,11,FWD,0.31,0,0,80,0.97,7.5,Winger
+France,Kylian Mbappe,10,FWD,0.68,1,1,88,1.0,8.2,Captain / star striker
+France,Marcus Thuram,9,FWD,0.34,0,0,84,0.98,7.6,Physical striker
+France,Randal Kolo Muani,15,FWD,0.22,0,0,45,1.0,7.3,Impact sub
+France,Youssouf Fofana,6,MID,0.07,0,0,75,1.0,7.1,Defensive cover
+Argentina,Emiliano Martinez,23,GK,0.00,0,0,90,1.0,7.8,World class keeper / PK specialist
+Argentina,Nahuel Molina,26,DEF,0.06,0,0,85,1.0,7.1,RB
+Argentina,Cristian Romero,13,DEF,0.05,0,0,90,1.0,7.4,CB
+Argentina,Lisandro Martinez,14,DEF,0.04,0,0,88,0.90,7.2,CB - slight knock
+Argentina,Nicolas Tagliafico,3,DEF,0.05,0,0,85,1.0,7.0,LB
+Argentina,Rodrigo De Paul,7,MID,0.14,0,0,88,1.0,7.5,Engine room
+Argentina,Leandro Paredes,5,MID,0.08,0,0,78,1.0,7.1,DM
+Argentina,Enzo Fernandez,24,MID,0.12,0,0,86,1.0,7.4,Creative CM
+Argentina,Angel Di Maria,11,FWD,0.24,0,1,70,0.92,7.3,Veteran winger
+Argentina,Julian Alvarez,9,FWD,0.42,0,0,82,1.0,7.7,Second striker
+Argentina,Lionel Messi,10,FWD,0.55,1,1,83,0.93,8.1,GOAT - captain
+Argentina,Lautaro Martinez,22,FWD,0.38,0,0,80,1.0,7.6,Target man
+Spain,David Raya,1,GK,0.00,0,0,90,1.0,7.4,Shot-stopper
+Spain,Dani Carvajal,2,DEF,0.05,0,0,85,0.95,7.1,RB
+Spain,Robin Le Normand,6,DEF,0.04,0,0,90,1.0,7.2,CB
+Spain,Aymeric Laporte,14,DEF,0.04,0,0,88,1.0,7.1,CB
+Spain,Marc Cucurella,24,DEF,0.03,0,0,85,1.0,7.0,LB
+Spain,Rodri,16,MID,0.11,0,0,88,1.0,8.0,World class DM
+Spain,Pedri,26,MID,0.15,0,1,87,1.0,7.8,Creative CM
+Spain,Fabian Ruiz,8,MID,0.13,0,0,82,1.0,7.4,Box-to-box MF
+Spain,Lamine Yamal,19,FWD,0.34,0,0,88,1.0,8.1,Young superstar winger
+Spain,Alvaro Morata,7,FWD,0.28,1,0,80,0.95,7.4,Target striker
+Spain,Nico Williams,17,FWD,0.32,0,0,82,1.0,7.7,Electric winger
+Spain,Dani Olmo,10,MID,0.19,0,0,78,0.97,7.5,Versatile attacker
+Brazil,Ederson,1,GK,0.00,0,0,90,1.0,7.3,Experienced keeper
+Brazil,Danilo,2,DEF,0.05,0,0,83,0.90,7.0,RB - slight doubt
+Brazil,Gabriel Magalhaes,4,DEF,0.06,0,0,90,1.0,7.3,CB
+Brazil,Marquinhos,5,DEF,0.05,0,0,90,1.0,7.4,Captain CB
+Brazil,Guilherme Arana,6,DEF,0.04,0,0,85,1.0,7.1,LB
+Brazil,Casemiro,5,MID,0.09,0,0,80,0.88,7.1,Veteran DM - slightly reduced
+Brazil,Bruno Guimaraes,14,MID,0.12,0,0,88,1.0,7.5,Engine room
+Brazil,Gerson,8,MID,0.10,0,0,75,1.0,7.2,Box-to-box
+Brazil,Rodrygo,11,FWD,0.38,0,0,83,1.0,7.7,Left winger
+Brazil,Vinicius Jr,7,FWD,0.52,0,0,88,1.0,8.0,Star winger
+Brazil,Endrick,9,FWD,0.35,1,0,72,1.0,7.5,Young striker
+Brazil,Raphinha,10,FWD,0.31,0,1,85,1.0,7.6,Right winger
+England,Jordan Pickford,1,GK,0.00,0,0,90,1.0,7.3,Experienced keeper
+England,Kyle Walker,2,DEF,0.03,0,0,88,0.97,7.1,RB
+England,John Stones,5,DEF,0.05,0,0,87,1.0,7.2,CB
+England,Harry Maguire,6,DEF,0.07,0,0,88,1.0,7.0,CB
+England,Luke Shaw,23,DEF,0.03,0,0,80,0.92,7.0,LB - fitness concern
+England,Declan Rice,4,MID,0.08,0,0,90,1.0,7.6,Anchor MF / set-pieces
+England,Jude Bellingham,22,MID,0.31,0,0,88,1.0,8.1,Number 10 / driving force
+England,Phil Foden,47,MID,0.28,0,0,85,1.0,7.8,Creative MF
+England,Bukayo Saka,7,FWD,0.34,1,1,87,1.0,7.9,Right winger / PK taker
+England,Harry Kane,9,FWD,0.52,1,1,88,1.0,8.0,Captain / world-class striker
+England,Marcus Rashford,10,FWD,0.29,0,0,75,0.94,7.4,Left winger
+England,Cole Palmer,20,MID,0.27,0,0,72,1.0,7.6,Creative sub
+Portugal,Diogo Costa,1,GK,0.00,0,0,90,1.0,7.5,Excellent keeper / PK specialist
+Portugal,Joao Cancelo,20,DEF,0.06,0,0,87,1.0,7.2,RB/LB
+Portugal,Ruben Dias,3,DEF,0.05,0,0,90,1.0,7.5,World class CB
+Portugal,Antonio Silva,12,DEF,0.04,0,0,88,1.0,7.3,CB
+Portugal,Nuno Mendes,5,DEF,0.05,0,0,87,1.0,7.2,LB
+Portugal,Vitinha,8,MID,0.10,0,0,86,1.0,7.4,Creative CM
+Portugal,Joao Palhinha,6,MID,0.06,0,0,88,1.0,7.3,DM
+Portugal,Bruno Fernandes,8,MID,0.22,1,1,87,0.97,7.7,Captain / playmaker
+Portugal,Rafael Leao,11,FWD,0.34,0,0,83,1.0,7.7,Left winger
+Portugal,Cristiano Ronaldo,7,FWD,0.44,1,1,80,0.90,7.5,Legend / veteran
+Portugal,Joao Felix,10,FWD,0.31,0,0,78,0.95,7.6,Creative forward
+Portugal,Goncalo Ramos,9,FWD,0.38,0,0,75,1.0,7.6,Striker
+Belgium,Koen Casteels,1,GK,0.00,0,0,90,1.0,7.1,Keeper
+Belgium,Timothy Castagne,22,DEF,0.05,0,0,84,1.0,7.0,RB
+Belgium,Wout Faes,4,DEF,0.04,0,0,88,1.0,7.0,CB
+Belgium,Jan Vertonghen,5,DEF,0.04,0,0,80,0.88,7.0,Veteran CB
+Belgium,Leander Dendoncker,25,DEF,0.02,0,0,80,1.0,6.9,LB/DEF
+Belgium,Axel Witsel,6,MID,0.07,0,0,75,0.90,7.0,Veteran DM
+Belgium,Youri Tielemans,7,MID,0.12,0,0,85,1.0,7.3,CM
+Belgium,Kevin De Bruyne,7,MID,0.17,0,1,80,0.87,7.8,Creative MF - fitness concern
+Belgium,Dodi Lukebakio,14,FWD,0.26,0,0,78,1.0,7.2,Winger
+Belgium,Romelu Lukaku,9,FWD,0.38,1,0,80,0.95,7.5,Physical striker
+Belgium,Lois Openda,11,FWD,0.33,0,0,78,1.0,7.3,Athletic striker
+Belgium,Leandro Trossard,19,FWD,0.27,0,0,72,1.0,7.2,Versatile winger
+Morocco,Yassine Bounou,1,GK,0.00,0,0,90,1.0,7.8,World class keeper
+Morocco,Achraf Hakimi,2,DEF,0.08,0,0,88,1.0,7.6,Star RB / captain
+Morocco,Romain Saiss,5,DEF,0.05,0,0,88,0.92,7.2,CB - veteran
+Morocco,Jawad El Yamiq,4,DEF,0.03,0,0,85,1.0,7.1,CB
+Morocco,Noussair Mazraoui,3,DEF,0.05,0,0,85,1.0,7.2,LB
+Morocco,Sofyan Amrabat,4,MID,0.05,0,0,88,1.0,7.5,Hard-tackling DM
+Morocco,Azzedine Ounahi,8,MID,0.09,0,0,82,1.0,7.3,Dynamic CM
+Morocco,Hakim Ziyech,7,FWD,0.24,0,1,78,0.95,7.5,Creative winger
+Morocco,Abde Ezzalzouli,14,FWD,0.28,0,0,78,1.0,7.3,Winger
+Morocco,Youssef En-Nesyri,9,FWD,0.36,1,0,82,1.0,7.6,Target striker
+Morocco,Sofiane Boufal,15,FWD,0.21,0,0,68,1.0,7.2,Creative winger
+Colombia,Camilo Vargas,22,GK,0.00,0,0,90,1.0,7.1,Keeper
+Colombia,Daniel Munoz,8,DEF,0.06,0,0,87,1.0,7.2,RB
+Colombia,Davinson Sanchez,2,DEF,0.04,0,0,88,0.95,7.1,CB
+Colombia,Jhon Lucumi,23,DEF,0.03,0,0,86,1.0,7.0,CB
+Colombia,Johan Mojica,3,DEF,0.04,0,0,85,1.0,7.0,LB
+Colombia,Jefferson Lerma,6,MID,0.06,0,0,86,1.0,7.1,DM
+Colombia,Richard Rios,20,MID,0.09,0,0,82,1.0,7.2,CM
+Colombia,James Rodriguez,10,MID,0.18,0,1,78,0.93,7.6,Star playmaker
+Colombia,Luis Diaz,7,FWD,0.32,0,0,86,1.0,7.8,Electric winger
+Colombia,Jhon Duran,14,FWD,0.35,1,0,78,1.0,7.5,Powerful striker
+Colombia,Rafael Santos Borre,19,FWD,0.28,0,0,72,1.0,7.3,Striker
+Switzerland,Yann Sommer,1,GK,0.00,0,0,90,1.0,7.5,Excellent keeper
+Switzerland,Silvan Widmer,17,DEF,0.05,0,0,85,1.0,7.1,RB
+Switzerland,Manuel Akanji,5,DEF,0.05,0,0,90,1.0,7.4,CB
+Switzerland,Fabian Schar,20,DEF,0.07,1,1,87,1.0,7.3,CB / set-pieces
+Switzerland,Ricardo Rodriguez,13,DEF,0.05,0,0,85,1.0,7.0,LB
+Switzerland,Granit Xhaka,10,MID,0.10,0,1,88,1.0,7.7,Captain / leader
+Switzerland,Remo Freuler,8,MID,0.09,0,0,85,1.0,7.2,Box-to-box
+Switzerland,Xherdan Shaqiri,23,MID,0.18,0,1,72,0.92,7.3,Creative veteran
+Switzerland,Ruben Vargas,11,FWD,0.22,0,0,80,1.0,7.3,Winger
+Switzerland,Breel Embolo,7,FWD,0.30,1,0,80,1.0,7.5,Striker
+Switzerland,Noah Okafor,25,FWD,0.26,0,0,70,1.0,7.3,Athletic striker
+USA,Matt Turner,1,GK,0.00,0,0,90,1.0,7.1,Keeper
+USA,Sergiño Dest,2,DEF,0.06,0,0,84,1.0,7.1,RB
+USA,Chris Richards,4,DEF,0.04,0,0,88,1.0,7.1,CB
+USA,Miles Robinson,12,DEF,0.03,0,0,87,1.0,7.0,CB
+USA,Antonee Robinson,5,DEF,0.04,0,0,87,1.0,7.1,LB
+USA,Tyler Adams,4,MID,0.05,0,0,82,0.92,7.2,DM - slight injury concern
+USA,Weston McKennie,8,MID,0.12,0,0,82,1.0,7.2,Box-to-box MF
+USA,Christian Pulisic,10,FWD,0.31,1,1,87,1.0,7.8,Captain / star forward
+USA,Tim Weah,21,FWD,0.22,0,0,78,1.0,7.2,Right winger
+USA,Ricardo Pepi,12,FWD,0.33,0,0,78,1.0,7.4,Young striker
+USA,Folarin Balogun,9,FWD,0.30,0,0,72,1.0,7.3,Striker
+Norway,Orjan Nyland,1,GK,0.00,0,0,90,1.0,7.0,Keeper
+Norway,Kristian Thorstvedt,23,MID,0.10,0,0,82,1.0,7.2,MF
+Norway,Leo Ostigard,5,DEF,0.05,0,0,88,1.0,7.1,CB
+Norway,Stian Gregersen,6,DEF,0.04,0,0,87,1.0,7.0,CB
+Norway,Fredrik Aursnes,8,MID,0.07,0,0,85,1.0,7.1,DM
+Norway,Martin Odegaard,10,MID,0.21,0,1,87,0.97,7.9,Captain / playmaker
+Norway,Sander Berge,23,MID,0.11,0,0,82,1.0,7.2,CM
+Norway,Erling Haaland,9,FWD,0.82,1,0,88,1.0,8.3,World class striker
+Norway,Alexander Sorloth,12,FWD,0.38,0,0,75,0.95,7.4,Second striker
+Norway,Mohamed Elyounoussi,11,FWD,0.22,0,0,78,1.0,7.2,Winger
+Canada,Maxime Crepeau,16,GK,0.00,0,0,90,1.0,7.1,Keeper
+Canada,Richie Laryea,22,DEF,0.05,0,0,83,1.0,7.0,RB
+Canada,Kamal Miller,3,DEF,0.04,0,0,87,1.0,7.0,CB
+Canada,Steven Vitoria,4,DEF,0.03,0,0,85,0.95,6.9,CB
+Canada,Ali Ahmed,25,DEF,0.04,0,0,83,1.0,7.0,LB
+Canada,Jonathan Osorio,21,MID,0.09,0,0,80,1.0,7.1,CM
+Canada,Samuel Piette,6,MID,0.04,0,0,78,1.0,7.0,DM
+Canada,Tajon Buchanan,11,FWD,0.26,0,0,80,0.93,7.3,Winger - injury doubt
+Canada,Jonathan David,7,FWD,0.45,1,0,85,1.0,7.8,Star striker
+Canada,Cyle Larin,9,FWD,0.31,0,0,75,0.97,7.3,Physical striker
+Canada,Alphonso Davies,10,FWD,0.18,0,0,87,1.0,7.7,Star LB / winger hybrid
+Egypt,Mohamed El Shenawy,1,GK,0.00,0,0,90,1.0,7.0,Keeper
+Egypt,Ahmed Hegazi,4,DEF,0.04,0,0,88,0.92,7.0,CB - veteran
+Egypt,Omar Kamal,5,DEF,0.03,0,0,85,1.0,6.9,CB
+Egypt,Ahmed Fatouh,3,DEF,0.04,0,0,84,1.0,6.9,LB
+Egypt,Tarek Hamed,8,MID,0.04,0,0,82,1.0,7.0,DM
+Egypt,Emam Ashour,10,MID,0.11,0,0,80,1.0,7.1,CM
+Egypt,Amr El Sulaya,7,MID,0.09,0,0,78,1.0,7.0,MF
+Egypt,Ramy Rabia,17,FWD,0.19,0,0,76,1.0,7.0,Winger
+Egypt,Mohamed Salah,11,FWD,0.56,1,1,88,0.97,8.1,Captain / legend
+Egypt,Mostafa Mohamed,9,FWD,0.31,0,0,78,1.0,7.3,Striker
+Egypt,Omar Marmoush,14,FWD,0.38,0,0,78,1.0,7.5,Attacking MF/FWD
+Paraguay,Antony Silva,1,GK,0.00,0,0,90,1.0,7.0,Keeper
+Paraguay,Ivan Piris,22,DEF,0.03,0,0,82,1.0,6.9,RB
+Paraguay,Gustavo Gomez,3,DEF,0.05,0,0,88,1.0,7.1,CB Captain
+Paraguay,Omar Alderete,4,DEF,0.04,0,0,85,1.0,7.0,CB
+Paraguay,Junior Alonso,6,DEF,0.03,0,0,83,1.0,6.9,LB
+Paraguay,Richard Sanchez,8,MID,0.07,0,0,80,1.0,7.0,CM
+Paraguay,Andres Cubas,16,MID,0.05,0,0,79,1.0,6.9,DM
+Paraguay,Mathias Villasanti,17,MID,0.08,0,0,78,1.0,7.0,MF
+Paraguay,Angel Romero,11,FWD,0.28,0,1,76,0.95,7.2,Winger
+Paraguay,Antonio Sanabria,9,FWD,0.34,1,0,78,1.0,7.3,Striker
+Paraguay,Junior Alvarado,7,FWD,0.19,0,0,72,1.0,7.0,Forward

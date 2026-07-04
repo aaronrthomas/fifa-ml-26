@@ -1,0 +1,112 @@
+01:16:45 | INFO     | ━━━━ STEP 1 │ Data Ingestion ━━━━
+01:16:45 | INFO     | === Data Ingestion Starting ===
+01:16:45 | INFO     | Loaded static Elo ratings (22 teams)
+01:16:45 | INFO     | Loaded static FIFA rankings (24 teams)
+01:16:45 | INFO     | Loaded static squad values (22 teams)
+01:16:45 | INFO     | Loaded static team form (22 teams)
+01:16:45 | INFO     | Loaded static team stats (22 teams)
+01:16:45 | INFO     | Loaded static player data (172 players)
+01:16:45 | INFO     | Loaded static H2H records (31 matchups)
+01:16:45 | INFO     | === Data Ingestion Complete ===
+01:16:45 | INFO     | Processed data saved to E:\OG\ml\wc2026_predictor\data\processed
+01:16:45 | INFO     | ━━━━ STEP 2 │ Team Strength Index ━━━━
+01:16:45 | INFO     |   Argentina       TSI=0.820 (Elo=0.888 Form=0.850 SqVal=0.784 Atk=1.41 Def=0.68)
+01:16:45 | INFO     |   Belgium         TSI=0.663 (Elo=0.690 Form=0.730 SqVal=0.644 Atk=1.19 Def=0.78)
+01:16:45 | INFO     |   Brazil          TSI=0.774 (Elo=0.802 Form=0.800 SqVal=0.797 Atk=1.38 Def=0.72)
+01:16:45 | INFO     |   Canada          TSI=0.575 (Elo=0.504 Form=0.760 SqVal=0.393 Atk=1.06 Def=0.94)
+01:16:45 | INFO     |   Colombia        TSI=0.681 (Elo=0.642 Form=0.840 SqVal=0.610 Atk=1.23 Def=0.82)
+01:16:45 | INFO     |   Egypt           TSI=0.447 (Elo=0.378 Form=0.670 SqVal=0.215 Atk=1.03 Def=0.87)
+01:16:45 | INFO     |   England         TSI=0.789 (Elo=0.770 Form=0.830 SqVal=0.941 Atk=1.37 Def=0.64)
+01:16:45 | INFO     |   France          TSI=0.873 (Elo=0.926 Form=0.880 SqVal=0.981 Atk=1.47 Def=0.61)
+01:16:45 | INFO     |   Mexico          TSI=0.596 (Elo=0.542 Form=0.720 SqVal=0.359 Atk=1.08 Def=0.91)
+01:16:45 | INFO     |   Morocco         TSI=0.619 (Elo=0.636 Form=0.780 SqVal=0.441 Atk=1.07 Def=0.69)
+01:16:45 | INFO     |   Norway          TSI=0.604 (Elo=0.496 Form=0.780 SqVal=0.594 Atk=1.28 Def=0.86)
+01:16:45 | INFO     |   Paraguay        TSI=0.385 (Elo=0.322 Form=0.640 SqVal=0.105 Atk=1.02 Def=0.93)
+01:16:45 | INFO     |   Portugal        TSI=0.779 (Elo=0.756 Form=0.850 SqVal=0.834 Atk=1.34 Def=0.71)
+01:16:45 | INFO     |   Spain           TSI=0.861 (Elo=0.876 Form=0.880 SqVal=0.902 Atk=1.58 Def=0.53)
+01:16:45 | INFO     |   Switzerland     TSI=0.624 (Elo=0.616 Form=0.790 SqVal=0.497 Atk=1.12 Def=0.84)
+01:16:45 | INFO     |   USA             TSI=0.618 (Elo=0.556 Form=0.730 SqVal=0.489 Atk=1.20 Def=0.88)
+01:16:45 | INFO     | ━━━━ STEP 3 │ Bracket Resolution ━━━━
+01:16:45 | INFO     | R16 R16_1: Morocco (predicted, P=60.7%)
+01:16:45 | INFO     | R16 R16_2: France (predicted, P=75.4%)
+01:16:45 | INFO     | R16 R16_3: Brazil (predicted, P=59.5%)
+01:16:45 | INFO     | R16 R16_4: England (predicted, P=70.9%)
+01:16:45 | INFO     | R16 R16_5: Spain (predicted, P=64.7%)
+01:16:45 | INFO     | R16 R16_6: Belgium (predicted, P=53.5%)
+01:16:45 | INFO     | R16 R16_7: Argentina (predicted, P=70.4%)
+01:16:45 | INFO     | R16 R16_8: Colombia (predicted, P=54.3%)
+01:16:45 | INFO     | QF QF_001: France vs Morocco
+01:16:45 | INFO     | QF QF_002: Spain vs Belgium
+01:16:45 | INFO     | QF QF_003: Brazil vs England
+01:16:45 | INFO     | QF QF_004: Argentina vs Colombia
+01:16:45 | INFO     | Quarter-Final fixtures:
+01:16:45 | INFO     |   QF_001: France          vs Morocco          [2026-07-09]
+01:16:45 | INFO     |   QF_002: Spain           vs Belgium          [2026-07-10]
+01:16:45 | INFO     |   QF_003: Brazil          vs England          [2026-07-11]
+01:16:45 | INFO     |   QF_004: Argentina       vs Colombia         [2026-07-12]
+01:16:45 | INFO     | ━━━━ STEP 5 │ ML Model Validation ━━━━
+01:16:45 | INFO     | Training dataset: 130 WC knockout matches (1990–2022)
+01:16:45 | INFO     | Features (8): ['elo_diff', 'form_diff', 'squad_val_diff', 'xg_diff', 'gd_diff', 'h2h_adv', 'host', 'tournament_diff']
+01:16:45 | INFO     | Validating Logistic Regression...
+01:16:45 | INFO     |   Logistic Regression | Acc: 0.815 ± 0.051 | LogLoss: 0.946 | AUC: 0.834
+01:16:45 | INFO     | Validating Random Forest...
+01:16:48 | INFO     |   Random Forest | Acc: 0.808 ± 0.049 | LogLoss: 0.716 | AUC: 0.803
+01:16:48 | INFO     | Validating Gradient Boosting...
+01:16:50 | INFO     |   Gradient Boosting | Acc: 0.815 ± 0.045 | LogLoss: 0.978 | AUC: 0.794
+01:16:50 | INFO     | Validating XGBoost...
+01:16:51 | INFO     |   XGBoost | Acc: 0.831 ± 0.031 | LogLoss: 1.193 | AUC: 0.813
+01:16:51 | INFO     | Validating LightGBM...
+01:16:53 | INFO     |   LightGBM | Acc: 0.838 ± 0.057 | LogLoss: 0.964 | AUC: 0.797
+01:16:53 | INFO     | Validating CatBoost...
+01:16:57 | INFO     |   CatBoost | Acc: 0.808 ± 0.064 | LogLoss: 1.214 | AUC: 0.817
+01:16:57 | INFO     | Best model: Random Forest (CV log-loss: 0.7161)
+01:16:57 | INFO     | Best calibrated model saved to E:\OG\ml\wc2026_predictor\models\saved\best_model.joblib
+01:16:57 | INFO     | Validation results saved to E:\OG\ml\wc2026_predictor\models\validation_results\cv_results.json
+01:16:57 | INFO     | ━━━━ STEP 4 │ Ensemble Match Model (Poisson + ML) ━━━━
+01:16:58 | INFO     | Loaded calibrated ML model from E:\OG\ml\wc2026_predictor\models\saved\best_model.joblib
+01:16:58 | INFO     |   QF_001 │ xG: 1.17–0.75 │ P(France)=78% │ MLS: 0-0
+01:16:58 | INFO     |   QF_002 │ xG: 1.42–0.72 │ P(Spain)=83% │ MLS: 1-0
+01:16:58 | INFO     |   QF_003 │ xG: 1.02–1.13 │ P(Brazil)=63% │ MLS: 1-1
+01:16:58 | INFO     |   QF_004 │ xG: 1.33–0.96 │ P(Argentina)=76% │ MLS: 1-1
+01:16:58 | INFO     | ━━━━ STEP 6 │ Monte Carlo Simulation (1,000 runs) ━━━━
+01:16:58 | INFO     | Running 1,000 Monte Carlo simulations...
+01:16:58 | INFO     | Simulation complete.
+01:16:58 | INFO     | === Champion Probabilities ===
+01:16:58 | INFO     |   Spain           30.6%
+01:16:58 | INFO     |   France          17.2%
+01:16:58 | INFO     |   Argentina       16.1%
+01:16:58 | INFO     |   England         11.4%
+01:16:58 | INFO     |   Brazil          9.3%
+01:16:58 | INFO     |   Colombia        6.3%
+01:16:58 | INFO     |   Morocco         5.1%
+01:16:58 | INFO     |   Belgium         4.0%
+01:16:58 | INFO     | Simulation results cached to E:\OG\ml\wc2026_predictor\predictions\simulation_cache\sim_d792baa940f3.pkl
+01:16:58 | INFO     | ━━━━ STEP 7 │ Goalscorer Model ━━━━
+01:16:58 | INFO     | ━━━━ STEP 8 │ Output Generation ━━━━
+01:16:58 | INFO     |   SF_001 │ France vs Spain → France
+01:16:58 | INFO     |   SF_002 │ Brazil vs Argentina → Argentina
+01:16:58 | INFO     |   TP_001 │ Spain vs Brazil → Spain
+01:16:58 | INFO     |   F_001  │ France vs Argentina → 🏆 France
+01:16:58 | INFO     | ✅ Submission CSV saved → E:\OG\ml\wc2026_predictor\predictions\submission.csv  (8 rows)
+01:16:58 | INFO     | ✅ Prediction report saved → E:\OG\ml\wc2026_predictor\predictions\prediction_report.md
+01:16:58 | INFO     | 
+01:16:58 | INFO     | ┌─────────────────────────────────────────────────────────┐
+01:16:58 | INFO     | │                  FINAL PREDICTIONS                      │
+01:16:58 | INFO     | ├──────────┬──────────────────┬────────────────────┬──────┤
+01:16:58 | INFO     | │ match_id │ home             │ away               │ score│
+01:16:58 | INFO     | ├──────────┼──────────────────┼────────────────────┼──────┤
+01:16:58 | INFO     | │ QF_001   │ France           │ Morocco            │ 1–0  │
+01:16:58 | INFO     | │ QF_002   │ Spain            │ Belgium            │ 1–0  │
+01:16:58 | INFO     | │ QF_003   │ Brazil           │ England            │ 2–1  │
+01:16:58 | INFO     | │ QF_004   │ Argentina        │ Colombia           │ 2–1  │
+01:16:58 | INFO     | │ SF_001   │ France           │ Spain              │ 1–0  │
+01:16:58 | INFO     | │ SF_002   │ Brazil           │ Argentina          │ 1–2  │
+01:16:58 | INFO     | │ TP_001   │ Spain            │ Brazil             │ 2–1  │
+01:16:58 | INFO     | │ F_001    │ France           │ Argentina          │ 2–1  │
+01:16:58 | INFO     | └──────────┴──────────────────┴────────────────────┴──────┘
+01:16:58 | INFO     | 
+01:16:58 | INFO     | 🏆  PREDICTED CHAMPION: France
+01:16:58 | INFO     | ✅ Complete in 13.5s
+01:16:58 | INFO     |    📄 predictions/submission.csv
+01:16:58 | INFO     |    📊 predictions/prediction_report.md
+01:16:58 | INFO     |    🤖 models/saved/best_model.joblib

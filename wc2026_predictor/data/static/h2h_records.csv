@@ -1,0 +1,41 @@
+# Head-to-head records between potential WC 2026 QF/SF/Final matchups
+# meetings: total competitive + major tournament matches
+# team_a_wins: wins for team_a
+# draws: draws
+# team_b_wins: wins for team_b
+# team_a_goals: total goals by team_a
+# team_b_goals: total goals by team_b
+# last_meeting_result: W/D/L from team_a perspective
+# last_meeting_year: year of last competitive meeting
+team_a,team_b,meetings,team_a_wins,draws,team_b_wins,team_a_goals,team_b_goals,last_meeting_result,last_meeting_year
+France,Argentina,12,3,4,5,22,25,L,2022
+France,Brazil,11,4,3,4,15,14,W,2023
+France,England,31,17,6,8,60,45,W,2024
+France,Spain,34,14,10,10,58,52,D,2021
+France,Portugal,26,12,8,6,42,28,W,2022
+France,Morocco,7,5,1,1,14,5,W,2022
+France,Colombia,5,4,0,1,12,3,W,2014
+France,Belgium,36,22,8,6,79,55,W,2018
+France,Norway,11,9,2,0,33,5,W,2021
+France,USA,6,5,0,1,19,7,W,2011
+Argentina,Brazil,111,40,25,46,172,185,D,2023
+Argentina,Spain,18,5,5,8,24,31,L,2010
+Argentina,England,16,7,3,6,21,20,W,2022
+Argentina,Switzerland,10,6,2,2,19,9,W,2014
+Argentina,Colombia,77,37,18,22,138,103,W,2021
+Argentina,Norway,4,3,1,0,11,2,W,2009
+Argentina,Egypt,4,4,0,0,11,2,W,2022
+Spain,Portugal,42,16,14,12,56,47,W,2021
+Spain,Morocco,10,6,2,2,19,9,D,2022
+Spain,Belgium,18,9,5,4,31,19,W,2021
+Spain,USA,10,8,0,2,24,8,W,2009
+Brazil,England,25,12,6,7,41,30,W,2022
+Brazil,Norway,11,10,1,0,42,4,W,2020
+Brazil,Mexico,25,17,6,2,60,24,W,2022
+England,Colombia,9,6,1,2,20,9,W,2022
+England,Switzerland,12,6,4,2,22,13,W,2022
+England,USA,11,7,3,1,22,10,W,2023
+England,Morocco,5,5,0,0,14,2,W,2021
+Belgium,USA,7,4,1,2,15,9,W,2014
+Colombia,Switzerland,5,2,2,1,7,5,W,2014
+Morocco,Canada,4,3,0,1,8,3,W,2022
