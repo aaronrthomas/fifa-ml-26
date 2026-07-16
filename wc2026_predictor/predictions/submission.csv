@@ -1,9 +1,9 @@
 match_id,stage,home_team,away_team,predicted_home_score,predicted_away_score,predicted_scorers_home,predicted_scorers_away,predicted_winner
 QF_001,Quarter Final,France,Morocco,1,0,10,,France
 QF_002,Quarter Final,Spain,Belgium,1,0,19,,Spain
-QF_003,Quarter Final,Brazil,England,2,1,9;10,22,Brazil
-QF_004,Quarter Final,Argentina,Colombia,2,1,10;22,19,Argentina
-SF_001,Semi Final,France,Spain,1,0,7,,France
-SF_002,Semi Final,Brazil,Argentina,1,2,7,9;22,Argentina
-TP_001,Third Place,Spain,Brazil,2,1,7;17,7,Spain
-F_001,Final,France,Argentina,2,1,10;11,7,France
+QF_003,Quarter Final,Argentina,England,2,1,10;22,9,Argentina
+QF_004,Quarter Final,Brazil,Argentina,1,2,7,9;10,Argentina
+SF_001,Semi Final,France,Spain,0,1,,19,Spain
+SF_002,Semi Final,Argentina,England,2,1,10;22,9,Argentina
+TP_001,Third Place,France,England,1,0,10,,France
+F_001,Final,Spain,Argentina,1,0,19,,Spain
